@@ -16,7 +16,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io'
+import { IoLogoTwitter, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io'
 
 const Page = () => {
   return (
@@ -127,13 +127,16 @@ const Page = () => {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://instagram.com/cordeliasguy" target="_blank">
+              <Link
+                href="https://www.linkedin.com/in/daniel-alejandro-caballero-carrazana-603a3b1b8/"
+                target="_blank"
+              >
                 <Button
                   variant="ghost"
                   colorScheme="teal"
-                  leftIcon={<Icon as={IoLogoInstagram} />}
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
                 >
-                  @cordeliasguy
+                  Daniel Alejandro Caballero Carrazana
                 </Button>
               </Link>
             </ListItem>

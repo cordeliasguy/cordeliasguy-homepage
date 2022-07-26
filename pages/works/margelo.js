@@ -21,7 +21,7 @@ const Work = () => (
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
+          <Meta>Original</Meta>
           <span>
             <Link href="https://margelo.io/" target="_blank">
               https://margelo.io/ <ExternalLinkIcon mx="2px" />
@@ -29,9 +29,22 @@ const Work = () => (
           </span>
         </ListItem>
         <ListItem>
+          <Meta>Website</Meta>
+          <span>
+            <Link
+              href="https://margelo-website-cordeliasguy.vercel.app/"
+              target="_blank"
+            >
+              https://margelo-website-cordeliasguy.vercel.app/{' '}
+              <ExternalLinkIcon mx="2px" />
+            </Link>
+          </span>
+        </ListItem>
+        <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Next.js / TypeScript / Vercel / Formspree / Fathom / Embla Carousel
+            Next.js / TypeScript / Vercel / Formspree / Embla Carousel /
+            TailwindCSS
           </span>
         </ListItem>
       </List>
