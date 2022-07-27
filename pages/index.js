@@ -30,7 +30,7 @@ const Page = () => {
           align="center"
           css={{ backdropFilter: 'blur(10px)' }}
         >
-          Hello, I&apos;m a junior web developer based in Andorra.
+          Hello, I&apos;m a junior web developer based in Andorra!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -52,7 +52,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/anya.jpg"
+              src="/images/selfie.png"
               alt="Profile Image"
             />
           </Box>
