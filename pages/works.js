@@ -3,6 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
+import thumbAstroBlog from '../public/images/astro-blog_eyecatch.png'
 import thumbMargelo from '../public/images/margelo_eyecatch.png'
 import thumbUdaCalendars from '../public/images/uda-calendars_eyecatch.png'
 import thumbBioLink from '../public/images/bio-link_eyecatch.png'
@@ -17,6 +18,15 @@ const Works = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
+            <WorkGridItem
+              id="astro-blog"
+              thumbnail={thumbAstroBlog}
+              title="Astro Blog"
+            >
+              A blog template created with Astro.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.1}>
             <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
               A replica of the website of the recruitment and app development
               agency Margelo.
@@ -24,7 +34,7 @@ const Works = () => {
           </Section>
         </SimpleGrid>
 
-        <Section delay={0.1}>
+        <Section delay={0.2}>
           <Divider my={6} />
           <Heading as="h3" fontSize={20} mb={4}>
             2021
@@ -32,7 +42,7 @@ const Works = () => {
         </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section delay={0.2}>
+          <Section delay={0.3}>
             <WorkGridItem
               id="uda-calendars"
               thumbnail={thumbUdaCalendars}
@@ -41,7 +51,7 @@ const Works = () => {
               The current public calendars of the University of Andorra.
             </WorkGridItem>
           </Section>
-          <Section delay={0.3}>
+          <Section delay={0.4}>
             <WorkGridItem
               id="bio-link"
               thumbnail={thumbBioLink}
