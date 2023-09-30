@@ -30,7 +30,7 @@ const Page = () => {
           align="center"
           css={{ backdropFilter: 'blur(10px)' }}
         >
-          Hello, I&apos;m a junior web developer based in Andorra!
+          Hello, I&apos;m a web developer based in Andorra!
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -62,11 +62,9 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            I&apos;m a junior software developer based in Andorra. I&apos;m
-            currently searching for a full time position in the field of web
-            development. I love to create things and I&apos;m always looking for
-            new ways to improve my skills. When not coding, I spend time hanging
-            out with friends.
+            I&apos;m a software developer based in Andorra. I love to create
+            things and I&apos;m always looking for new ways to improve my
+            skills. When not coding, I spend time hanging out with friends.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -136,7 +134,7 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<Icon as={IoLogoLinkedin} />}
                 >
-                  Daniel Alejandro Caballero Carrazana
+                  Daniel A. Caballero Carrazana
                 </Button>
               </Link>
             </ListItem>
