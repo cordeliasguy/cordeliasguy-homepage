@@ -52,7 +52,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/selfie.png"
+              src="/images/selfie.jpg"
               alt="Profile Image"
             />
           </Box>
@@ -85,8 +85,31 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Completed the Bachelor&apos;s Degree in Computer Science at the
-            University of Andorra.
+            Finished the Bachelor&apos;s Degree in Computer Science at the&nbsp;
+            <Link href="https://www.uda.ad/" target="_blank" color="teal.200">
+              University of Andorra
+            </Link>
+            .
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Finished a 6-month training contract at the University.
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Finished an internship contract of 1-month at&nbsp;
+            <Link href="https://limbit.io/" target="_blank" color="teal.200">
+              Limbit
+            </Link>
+            .
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Started my current full time developer position at&nbsp;
+            <Link href="https://xone.es/" target="_blank" color="teal.200">
+              byXOne
+            </Link>
+            .
           </BioSection>
         </Section>
 
