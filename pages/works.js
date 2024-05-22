@@ -3,6 +3,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
+import thumbLOLAAdmin from '../public/images/lola-admin_eyecatch.png'
+import thumbLOLAPlatform from '../public/images/lola-platform_eyecatch.png'
 import thumbAstroBlog from '../public/images/astro-blog_eyecatch.png'
 import thumbMargelo from '../public/images/margelo_eyecatch.png'
 import thumbUdaCalendars from '../public/images/uda-calendars_eyecatch.png'
@@ -13,8 +15,46 @@ const Works = () => {
     <Layout title="Works">
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          2022
+          2024
         </Heading>
+
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="lola-admin"
+              thumbnail={thumbLOLAAdmin}
+              title="LOLA Admin"
+            >
+              Administration dashboard of the LOLA Platform.
+            </WorkGridItem>
+          </Section>
+        </SimpleGrid>
+
+        <Section delay={0.2}>
+          <Divider my={6} />
+          <Heading as="h3" fontSize={20} mb={4}>
+            2023
+          </Heading>
+        </Section>
+
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="lola-platform"
+              thumbnail={thumbLOLAPlatform}
+              title="LOLA Platform"
+            >
+              A web platform that allows you to manage energy consumption.
+            </WorkGridItem>
+          </Section>
+        </SimpleGrid>
+
+        <Section delay={0.2}>
+          <Divider my={6} />
+          <Heading as="h3" fontSize={20} mb={4}>
+            2022
+          </Heading>
+        </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
