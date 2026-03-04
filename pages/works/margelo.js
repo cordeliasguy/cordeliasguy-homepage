@@ -23,8 +23,8 @@ const Work = () => (
         <ListItem>
           <Meta>Original</Meta>
           <span>
-            <Link href="https://margelo.io/" target="_blank">
-              https://margelo.io/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://margelo.com/" target="_blank">
+              https://margelo.com/ <ExternalLinkIcon mx="2px" />
             </Link>
           </span>
         </ListItem>

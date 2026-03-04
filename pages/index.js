@@ -37,7 +37,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Daniel A. Caballero
             </Heading>
-            <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+            <p>Software Developer</p>
           </Box>
           <Box
             flexShrink={0}
@@ -149,7 +149,7 @@ const Page = () => {
             </ListItem>
             <ListItem>
               <Link
-                href="https://www.linkedin.com/in/daniel-alejandro-caballero-carrazana-603a3b1b8/"
+                href="https://www.linkedin.com/in/daniel-a-caballero-603a3b1b8/"
                 target="_blank"
               >
                 <Button
@@ -157,7 +157,7 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<Icon as={IoLogoLinkedin} />}
                 >
-                  Daniel A. Caballero Carrazana
+                  Daniel A. Caballero
                 </Button>
               </Link>
             </ListItem>
