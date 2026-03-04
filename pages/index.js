@@ -16,7 +16,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import { IoLogoTwitter, IoLogoLinkedin, IoLogoGithub } from 'react-icons/io'
+import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io'
 
 const Page = () => {
   return (
@@ -86,7 +86,7 @@ const Page = () => {
           <BioSection>
             <BioYear>2022</BioYear>
             Finished the Bachelor&apos;s Degree in Computer Science at the&nbsp;
-            <Link href="https://www.uda.ad/" target="_blank" color="teal.200">
+            <Link href="https://www.uda.ad/" target="_blank">
               University of Andorra
             </Link>
             .
@@ -98,7 +98,7 @@ const Page = () => {
           <BioSection>
             <BioYear>2022</BioYear>
             Finished an internship contract of 1-month at&nbsp;
-            <Link href="https://limbit.io/" target="_blank" color="teal.200">
+            <Link href="https://limbit.io/" target="_blank">
               Limbit
             </Link>
             .
@@ -106,7 +106,7 @@ const Page = () => {
           <BioSection>
             <BioYear>2022</BioYear>
             Started my current full time developer position at&nbsp;
-            <Link href="https://xone.es/" target="_blank" color="teal.200">
+            <Link href="https://xone.es/" target="_blank">
               byXOne
             </Link>
             .
@@ -117,7 +117,7 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             I Love
           </Heading>
-          <Paragraph>Art, Music, Drawing, and Learning new things.</Paragraph>
+          <Paragraph>Art, music, traveling, and learning new things.</Paragraph>
         </Section>
 
         <Section delay={0.3}>
@@ -131,17 +131,6 @@ const Page = () => {
                   variant="ghost"
                   colorScheme="teal"
                   leftIcon={<Icon as={IoLogoGithub} />}
-                >
-                  @cordeliasguy
-                </Button>
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link href="https://twitter.com/cordeliasguy" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme="teal"
-                  leftIcon={<Icon as={IoLogoTwitter} />}
                 >
                   @cordeliasguy
                 </Button>
